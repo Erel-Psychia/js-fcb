@@ -1,0 +1,151 @@
+/*Specify a list of image names*/
+:root
+{
+i2: url("./Images/01-zuitt_2.png");
+i4: url("./Images/02-zuitt_4.png");
+i8: url("./Images/03-zuitt_8.png");
+i16: url("./Images/04-zuitt_16.png");
+i32: url("./Images/05-zuitt_32.png");
+i64: url("./Images/06-zuitt_64.png");
+i128: url("./Images/07-zuitt_128.png");
+i256: url("./Images/08-zuitt_256.png");
+i512: url("./Images/09-zuitt_512.png");
+i1024: url("./Images/10-zuitt_1024.png");
+i2048: url("./Images/11-zuitt_2048.png");
+i4096: url("./Images/12-zuitt_4096.png");
+i8192: url("./Images/13-zuitt_8192.png");
+istory: url("./Images/story-thumbnail-2048.jpg");
+}
+
+/*Style the body*/
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+/*Style the separator*/
+hr
+{
+max-width: 480px;
+}
+
+/*Style the board*/
+#board
+{
+max-width: 400px;
+max-height: 400px;
+background-color: #cdc1b5;
+border: 6px solid #bbada0;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+/*Style the tiles*/
+.tile
+{
+width: 90;
+height: 5;
+border: 5px solid #bbada0;
+font-size: 25px;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/*Style custom tiles*/
+.x2
+{
+background-color: #eee4da;
+color: #727371;
+background-image: var(i2);
+background-size: 100% 100%;
+}
+.x4
+{
+background-color: #ece0ca;
+color: #727371;
+background-image: var(i4);
+background-size: 100% 100%;
+}
+.x8
+{
+background-color: #f4b17a;
+color: #727371;
+background-image: var(i8);
+background-size: 100% 100%;
+}
+.x16
+{
+background-color: #f59575;
+color: #727371;
+background-image: var(i16);
+background-size: 100% 100%;
+}
+.x32
+{
+background-color: #f57c5f;
+color: white;
+background-image: var(i32);
+background-size: 100% 100%;
+}
+.x64
+{
+background-color: #f65d3b;
+color: white;
+background-image: var(i64);
+background-size: 100% 100%;
+}
+.x128
+{
+background-color: #edce71;
+color: white;
+background-image: var(i128);
+background-size: 100% 100%;
+}
+.x256
+{
+background-color: #edcc63;
+color: white;
+background-image: var(i256);
+background-size: 100% 100%;
+}
+.x512
+{
+background-color: #edc651;
+color: white;
+background-image: var(i512);
+background-size: 100% 100%;
+}
+.x1024
+{
+background-color: #eec744;
+color: white;
+background-image: var(i1024);
+background-size: 100% 100%;
+}
+.x2048
+{
+background-color: #eec230;
+color: white;
+background-image: var(i2048);
+background-size: 100% 100%;
+}
+.x4096
+{
+background-color: #fe3d3d;
+color: white;
+background-image: var(i4096);
+background-size: 100% 100%;
+}
+.x8192
+{
+background-color: #ff2020;
+color: white;
+background-image: var(i8192);
+background-size: 100% 100%;
+}
+
+/*End*/
